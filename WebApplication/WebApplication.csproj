@@ -1,0 +1,136 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Services\Services.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="NHibernateProfiler" Version="6.0.6029" />
+    </ItemGroup>
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\LICENSE" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery-validation\LICENSE.md" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.min.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\LICENSE.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\maps\style.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\backgrounds\bg-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\backgrounds\bg-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\backgrounds\general.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\banner\hero-area.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\banner\hero-video.mp4" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\avatar.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-6.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-post-7.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-single-post.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\blog-single.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\blog\user.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\location\dolcevita.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\logo.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\logos\our-client.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-6.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-7.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\portfolio\portfolio-8.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\author.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\client-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\client-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\team-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\team-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\team-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\team\team-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\animate-css\animate.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\bootstrap\dist\css\bootstrap.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\bootstrap\dist\js\bootstrap.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\bootstrap\dist\js\bootstrap.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\bootstrap\dist\js\npm.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\count-to\jquery.countTo.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\filterzr\jquery.filterizr.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\jQuery-nav\jquery.nav.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\jquery\dist\jquery.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\magnific-popup\dist\jquery.magnific-popup.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\magnific-popup\dist\jquery.magnific-popup.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\magnific-popup\dist\magnific-popup.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\magnific-popup\package.json" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\ajax-loader.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\config.rb" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\fonts\slick.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\fonts\slick.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\fonts\slick.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\fonts\slick.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\slick-theme.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\slick.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\slick.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\slick-carousel\slick\slick.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\smooth-scroll\dist\js\smooth-scroll.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\smooth-scroll\dist\js\smooth-scroll.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\Sticky\jquery.sticky.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\themefisher-font\fonts\themefisher-font.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\themefisher-font\fonts\themefisher-font.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\themefisher-font\fonts\themefisher-font.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\themefisher-font\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\bower.json" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\css\libs\animate.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\css\site.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\demo.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\dist\wow.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\dist\wow.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\Gruntfile.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\package.json" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\README.md" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\coffeescripts\helpers\SpecHelper.coffee" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\coffeescripts\wow-spec.coffee" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\fixtures\custom.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\fixtures\simple.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\helpers\SpecHelper.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\libs\jasmine-jquery.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\libs\jquery.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\spec\javascripts\wow-spec.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\plugins\wow\src\wow.coffee" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
+</Project>
