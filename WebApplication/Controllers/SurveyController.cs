@@ -45,7 +45,7 @@ namespace WebApplication.Controllers
             var survey = _surveyService.GetById(surveyDTO.SurveyId);
             survey = _mapper.Map(surveyDTO, survey);
             _surveyService.Save(survey);
-            return RedirectToAction("Index", "Home");
+            return Ok();
         }
     }
 }

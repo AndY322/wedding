@@ -10,7 +10,7 @@
         <h1 class="u-align-center u-custom-font u-text u-text-4">
             <span style="font-size: 72px;">La Dolce Vita House</span>
         </h1>
-        <a href="https://nicepage.com/c/blog-posts-website-mockup" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-1">
+        <a id="location-btn" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-1">
             <span class="u-icon">
                 <svg class="u-svg-content" viewBox="0 0 30.727 30.727" x="0px" y="0px" style="width: 1em; height: 1em;">
                     <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0   l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"></path>
@@ -18,10 +18,10 @@
             </span>&nbsp;Подробнее о местоположении
         </a>
         <p class="u-align-center u-text u-text-white u-text-5"> Предлагаем ответить вам на список вопросов, чтобы сделать мероприятие максимально комфортным для вас :)</p>
-        <a href="https://nicepage.com/k/awards-website-templates" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-1">Ответить</a>
+        <a id="survey-btn" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-light-3 u-radius-50 u-btn-1">Ответить</a>
     </div>
 </section>
-<section class="u-clearfix u-section-3 u-grey-5" id="sec-74f2">
+<section class="u-clearfix u-section-3 u-grey-5" id="location-section">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">Местоположение</h1>
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-spacing-vertical u-layout-wrap u-layout-wrap-1">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <a href="https://nicepage.com/k/children-website-templates" class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1">
+        <a id="telephone-btn" class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1">
             <span class="u-icon">
                 <svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;">
                     <path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path>
@@ -332,13 +332,13 @@
 </div>
 </div>
 </section>
-<section class="u-clearfix u-grey-5 u-section-5" id="sec-3792">
+<section class="u-clearfix u-grey-5 u-section-5" id="survey-section">
     <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
             <div class="u-layout" style="">
                 <div class="u-layout-row" style="">
                     <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                        <form action="save" method="post">
+                        <form id="survey" action="save" method="post">
                                         @Html.HiddenFor(x => x.SurveyId)
                                         @Html.HiddenFor(x => x.UserId)
                         <div class="u-container-layout u-container-layout-1">
@@ -369,6 +369,7 @@
                                     }
                                 </div>
                             </div>
+                            <p id="thank-you" class="hidden green">Спасибо за ответ!</p>
                             <input type="submit" class="u-btn u-btn-round u-button-style u-radius-50" value="Сохранить"/>
                         </div>
                         </form>
@@ -431,3 +432,25 @@
         <p class="u-small-text u-text u-text-variant u-text-1">Powered by Mizernik team</p>
     </div>
 </footer>
+
+<script>
+$(document).ready(function (){
+    $("#location-btn").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#location-section").offset().top
+        }, 2000);
+    });
+    $("#survey-btn").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#survey-section").offset().top
+        }, 2000);
+    });
+});
+
+$("#survey").submit(function(e) {
+    $("#thank-you").removeClass("hidden");
+    e.preventDefault();
+    var formData = $(this).serialize();
+    $.post("/survey/save", formData);
+});
+</script>

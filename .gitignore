@@ -11,3 +11,5 @@ bld/
 [Ll]og/
 
 publish/
+.idea/
+.vs/

@@ -989,3 +989,11 @@
     width: 320px;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.green {
+  color: green;
+}

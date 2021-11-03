@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgGwwx/8FTUKi/3JpNViP+QAAAAACAAAAAAADZgAAwAAAABAAAACBsBWKaO5k1IRglzgGgkNMAAAAAASAAACgAAAAEAAAAKb1xfpCW1K/rNvf/pM3i9IYAAAAkJitfF7v18K+qyW7Sw6Pa2v6RpzSpRKpFAAAAPLQoxDKC3IjwHW0u3/ZQ9lm5gv8</EncryptedPassword>
+    <_PublishTargetUrl>ftp://dmitryda@93.125.99.108/httpdocs</_PublishTargetUrl>
+    <History>True|2021-11-03T16:55:10.3526034Z;False|2021-11-03T19:52:38.4595410+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Antlr3.Runtime.dll">
+      <publishTime>12/18/2016 13:55:30</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>11/03/2021 17:36:14</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/29/2021 18:34:32</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>10/16/2020 15:36:54</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>02/05/2021 14:28:34</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>08/18/2020 17:46:38</publishTime>
+    </File>
+    <File Include="Azure.Storage.Blobs.dll">
+      <publishTime>08/31/2020 22:39:20</publishTime>
+    </File>
+    <File Include="Azure.Storage.Common.dll">
+      <publishTime>08/31/2020 22:39:06</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:15:58</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:36</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:15:58</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="DomainModel.dll">
+      <publishTime>11/03/2021 18:50:09</publishTime>
+    </File>
+    <File Include="DomainModel.pdb">
+      <publishTime>11/03/2021 18:50:09</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="FluentNHibernate.dll">
+      <publishTime>11/12/2020 01:57:18</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="Google.Protobuf.dll">
+      <publishTime>08/14/2020 16:35:16</publishTime>
+    </File>
+    <File Include="HibernatingRhinos.Profiler.Appender.dll">
+      <publishTime>09/29/2021 08:59:14</publishTime>
+    </File>
+    <File Include="Iesi.Collections.dll">
+      <publishTime>03/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>09/13/2019 02:28:44</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/25/2020 04:15:58</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>07/25/2020 04:15:36</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>06/17/2020 04:37:32</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.PlatformAbstractions.dll">
+      <publishTime>11/14/2016 20:41:30</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="NHibernate.dll">
+      <publishTime>09/26/2021 17:35:40</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="Remotion.Linq.dll">
+      <publishTime>02/06/2018 22:25:00</publishTime>
+    </File>
+    <File Include="Remotion.Linq.EagerFetching.dll">
+      <publishTime>03/23/2018 17:10:12</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>08/16/2021 19:22:22</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/sni.dll">
+      <publishTime>07/12/2017 11:24:24</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/sni.dll">
+      <publishTime>07/12/2017 11:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/sni.dll">
+      <publishTime>07/12/2017 11:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll">
+      <publishTime>08/16/2021 19:22:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="Services.dll">
+      <publishTime>11/03/2021 19:47:18</publishTime>
+    </File>
+    <File Include="Services.pdb">
+      <publishTime>11/03/2021 19:47:18</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/20/2017 18:09:04</publishTime>
+    </File>
+    <File Include="System.Data.SqlClient.dll">
+      <publishTime>08/16/2021 19:14:56</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:38</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>11/03/2021 19:53:44</publishTime>
+    </File>
+    <File Include="WebApplication.deps.json">
+      <publishTime>11/03/2021 19:53:32</publishTime>
+    </File>
+    <File Include="WebApplication.dll">
+      <publishTime>11/03/2021 19:53:31</publishTime>
+    </File>
+    <File Include="WebApplication.exe">
+      <publishTime>11/03/2021 19:53:31</publishTime>
+    </File>
+    <File Include="WebApplication.pdb">
+      <publishTime>11/03/2021 19:53:31</publishTime>
+    </File>
+    <File Include="WebApplication.runtimeconfig.json">
+      <publishTime>11/03/2021 18:50:13</publishTime>
+    </File>
+    <File Include="WebApplication.Views.dll">
+      <publishTime>11/03/2021 19:53:31</publishTime>
+    </File>
+    <File Include="WebApplication.Views.pdb">
+      <publishTime>11/03/2021 19:53:31</publishTime>
+    </File>
+    <File Include="wwwroot/Blog-Template.css">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/1.jpeg">
+      <publishTime>11/03/2021 17:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/2.jpeg">
+      <publishTime>11/03/2021 17:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/3.jpeg">
+      <publishTime>11/03/2021 17:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/4.jpeg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/4492553.jpg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/771522644-01.jpeg">
+      <publishTime>11/03/2021 17:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/771522644-02.jpeg">
+      <publishTime>11/03/2021 17:33:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/default-image.jpg">
+      <publishTime>11/03/2021 17:33:20</publishTime>
+    </File>
+    <File Include="wwwroot/images/default-logo.png">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/dolceVita.jpeg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_4102b.jpg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/DSC_4325b.jpg">
+      <publishTime>11/03/2021 17:33:20</publishTime>
+    </File>
+    <File Include="wwwroot/images/favicon.ico">
+      <publishTime>11/03/2021 13:56:07</publishTime>
+    </File>
+    <File Include="wwwroot/images/IMG_20210114_151222.jpg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/images/IMG_20210512_103633.jpg">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/jquery.js">
+      <publishTime>11/01/2021 22:00:19</publishTime>
+    </File>
+    <File Include="wwwroot/nicepage.css">
+      <publishTime>11/03/2021 17:33:20</publishTime>
+    </File>
+    <File Include="wwwroot/nicepage.js">
+      <publishTime>11/01/2021 22:00:20</publishTime>
+    </File>
+    <File Include="wwwroot/Post-Template.css">
+      <publishTime>11/03/2021 17:33:08</publishTime>
+    </File>
+    <File Include="wwwroot/site.css">
+      <publishTime>11/03/2021 18:22:42</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:40</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>07/25/2020 04:16:00</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>07/25/2020 04:15:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
