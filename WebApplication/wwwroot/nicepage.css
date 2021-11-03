@@ -34792,22 +34792,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: url("images/default-image.jpg");
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
-}
-
-.u-header .u-image-1 {
-  width: 64px;
-  height: 32px;
-  margin: 22px auto 26px 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  min-height: 112px;
 }
 
 
@@ -34823,11 +34812,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto 20px;
+  margin: 0 auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 40px;
   }
 }
 @media (max-width: 991px) {
