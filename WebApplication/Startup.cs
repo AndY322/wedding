@@ -20,7 +20,7 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
             services.AddNHibernate(Configuration.GetConnectionString("DefaultConnection"));
             services.AddAutoMapper();
         }
