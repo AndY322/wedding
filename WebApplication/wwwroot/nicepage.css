@@ -20359,7 +20359,7 @@ a.u-link.u-hover-color-1-light-1:hover {
 .u-button-style.u-color-1-light-2,
 .u-button-style.u-color-1-light-2[class*="u-border-"] {
     color: #111111 !important;
-    background-color: #adcce9 !important;
+    background-color: #c6d2c8 !important;
 }
 .u-button-style.u-color-1-light-2:hover,
 .u-button-style.u-color-1-light-2[class*="u-border-"]:hover,
@@ -20395,7 +20395,7 @@ a.u-button-style.u-button-style.active > .u-active-color-1-light-2[class*="u-bor
 li.active > a.u-button-style.u-button-style.u-active-color-1-light-2,
 li.active > a.u-button-style.u-button-style.u-active-color-1-light-2[class*="u-border-"] {
     color: #111111 !important;
-    background-color: #adcce9 !important;
+    background-color: #c6d2c8 !important;
 }
 a.u-link.u-hover-color-1-light-2:hover {
     color: #adcce9 !important;
@@ -22439,7 +22439,7 @@ a.u-link.u-hover-palette-1-light-1:hover {
 .u-button-style.u-palette-1-light-2,
 .u-button-style.u-palette-1-light-2[class*="u-border-"] {
     color: #111111 !important;
-    background-color: #adcce9 !important;
+    background-color: #c6d2c8 !important;
 }
 .u-button-style.u-palette-1-light-2:hover,
 .u-button-style.u-palette-1-light-2[class*="u-border-"]:hover,
@@ -22475,10 +22475,10 @@ a.u-button-style.u-button-style.active > .u-active-palette-1-light-2[class*="u-b
 li.active > a.u-button-style.u-button-style.u-active-palette-1-light-2,
 li.active > a.u-button-style.u-button-style.u-active-palette-1-light-2[class*="u-border-"] {
     color: #111111 !important;
-    background-color: #adcce9 !important;
+    background-color: #c6d2c8 !important;
 }
 a.u-link.u-hover-palette-1-light-2:hover {
-    color: #adcce9 !important;
+    color: #c6d2c8 !important;
 }
 .u-palette-1-light-3,
 .u-body.u-palette-1-light-3,
@@ -24622,7 +24622,7 @@ a.u-link.u-hover-grey-light-3:hover {
 }
 .u-button-style.u-white,
 .u-button-style.u-white[class*="u-border-"] {
-    color: #111111 !important;
+    color: #174e2d !important;
     background-color: #ffffff !important;
 }
 .u-button-style.u-white:hover,
@@ -24878,7 +24878,7 @@ a.u-link.u-hover-grey-25:hover {
 .u-container-layout.u-grey-5:before,
 .u-table-alt-grey-5 tr:nth-child(even) {
     color: #111111;
-    background-color: #f2f2f2;
+    background-color: #c6d2c8;
 }
 .u-button-style.u-grey-5,
 .u-button-style.u-grey-5[class*="u-border-"] {
@@ -34792,7 +34792,7 @@ blockquote
 
 /*end-variables sitestylecss*/
 .u-header {
-    background-image: url("images/default-image.jpg");
+    background-image: url("images/default-image.jpg?rand=cc9e");
     background-position: 50% 50%;
 }
 
