@@ -77,12 +77,12 @@
                                 Если вы думаете над подарком и никак не можете придумать, что бы такого нам подарить, то мы с удовольствем вам помогаем: ваши конверты в качестве подарка помогут нам осуществить мечту о собственном жилье и покупке машины!&nbsp;<br>И также мы будем рады, если вместо живых цветов вы захватите бутылочку вина или любого другого алкоголя для нашей домашней коллекции :) Нам будет очень приятно открыть его в честь какого-нибудь повода и насладиться воспоминаниями о нашем свадебном дне.
                             </p>
                             <p class="u-text u-text-3">Если вы хотите сделать другого рода сюрприз, для этого обращайтесь, пожалуйста, к нашему организатору Анастасии :)&nbsp;</p>
-                            <a class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1" href=”tel:+375447943404”>
+                            <a class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1" href="tel:80447943404">
                                 <span class="u-icon">
                                     <svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;">
                                         <path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path>
                                     </svg><img>
-                                </span>&nbsp;+375 (44) 794-34-04
+                                </span>&nbsp;80-44-794-34-04
                             </a>
                         </div>
                     </div>
@@ -114,12 +114,12 @@
                 </div>
             </div>
         </div>
-        <a id="telephone-btn" href=”tel:+375257363169” class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1">
+        <a id="telephone-btn" href="tel:80257363169" class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-btn-1">
             <span class="u-icon">
                 <svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;">
                     <path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path>
                 </svg><img>
-            </span>+375(25)7363169 - Дарья
+            </span>80-25-736-31-69 - Дарья
         </a>
         <div class="u-grey-light-2 u-map u-map-1">
             <div class="embed-responsive">
@@ -386,29 +386,31 @@
                                 <h1 class="u-text u-text-default u-text-1">Анкета</h1>
                                 <h5>@Html.LabelFor(x => x.WillYouParticipate)</h5>
                                 <div class="display-flex-column">
-                                    <div>@Html.RadioButtonFor(x => x.WillYouParticipate, true) Обязательно буду!</div>
-                                    <div>@Html.RadioButtonFor(x => x.WillYouParticipate, false) К сожалению, меня не будет.</div>
+                                    <div>@Html.RadioButtonFor(x => x.WillYouParticipate, true, new { id = "will-participate" }) Обязательно буду!</div>
+                                    <div>@Html.RadioButtonFor(x => x.WillYouParticipate, false, new { id = "wont-participate" }) К сожалению, меня не будет.</div>
                                 </div>
-                                <div class="col-md-12 text-center">
-                                    <h5>@Html.LabelFor(x => x.AlcoholId)</h5>
-                                    <div class="display-flex-column">
-                                        @foreach (var alcohol in Model.Alcohols)
-                                        {
-                                            <div>@Html.RadioButtonFor(x => x.AlcoholId, alcohol.AlcoholId) @alcohol.Name</div>
-                                        }
+                                <div id="secondary-questions">
+                                    <div class="col-md-12 text-center">
+                                        <h5>@Html.LabelFor(x => x.AlcoholId)</h5>
+                                        <div class="display-flex-column">
+                                            @foreach (var alcohol in Model.Alcohols)
+                                            {
+                                                <div>@Html.RadioButtonFor(x => x.AlcoholId, alcohol.AlcoholId) @alcohol.Name</div>
+                                            }
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-12 text-center">
-                                    <h5>@Html.LabelFor(x => x.Allergies)</h5>
-                                    @Html.TextBoxFor(x => x.Allergies)
-                                </div>
-                                <div class="col-md-12 text-center">
-                                    <h5>@Html.LabelFor(x => x.OvernightStayId)</h5>
-                                    <div class="display-flex-column">
-                                        @foreach (var option in Model.OvernightStayLookups)
-                                        {
-                                            <div>@Html.RadioButtonFor(x => x.OvernightStayId, option.Id) @option.Name</div>
-                                        }
+                                    <div class="col-md-12 text-center">
+                                        <h5>@Html.LabelFor(x => x.Allergies)</h5>
+                                        @Html.TextBoxFor(x => x.Allergies)
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <h5>@Html.LabelFor(x => x.OvernightStayId)</h5>
+                                        <div class="display-flex-column">
+                                            @foreach (var option in Model.OvernightStayLookups)
+                                            {
+                                                <div>@Html.RadioButtonFor(x => x.OvernightStayId, option.Id) @option.Name</div>
+                                            }
+                                        </div>
                                     </div>
                                 </div>
                                 <p id="thank-you" class="hidden green">Спасибо за ответ!</p>
@@ -495,7 +497,8 @@
                     </span>
                     <span class="sr-only">+Next</span>
                 </a>
-            </div></div>
+            </div>
+        </div>
     </div>
 </section>
 <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-439c">
@@ -524,4 +527,25 @@ $("#survey").submit(function(e) {
     var formData = $(this).serialize();
     $.post("/survey/save", formData);
 });
+
+$("#will-participate").change(function () {
+    $("#secondary-questions :input").each(function (index, element) {
+        element.removeAttribute("disabled");
+    });
+});
+$("#wont-participate").change(function () {
+    disableSecondaryControls();
+    $("#secondary-questions :input[type!=radio]").val("");
+    $("#secondary-questions :input[type=radio]").prop("checked", false);
+});
+$( document ).ready(function() {
+    if (!$("#will-participate").prop("checked")) {
+        disableSecondaryControls();
+    }
+});
+function disableSecondaryControls() {
+    $("#secondary-questions :input").each(function (index, element) {
+        element.setAttribute("disabled", true);
+    });
+}
 </script>
