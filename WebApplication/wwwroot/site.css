@@ -1227,7 +1227,7 @@
 .u-section-8 .u-image-1 {
   height: 355px;
   width: 585px;
-  margin: 0 auto;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-text-2 {
@@ -1247,8 +1247,7 @@
 .u-section-8 .u-image-2 {
   height: 355px;
   width: 585px;
-  animation-duration: 1000ms;
-  margin: 0 auto;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-text-3 {
@@ -1266,7 +1265,7 @@
 }
 
 .u-section-8 .u-image-3 {
-  width: 345px;
+  width: 355px;
   height: 495px;
   margin: 0 auto 0 28px;
 }
@@ -1285,9 +1284,9 @@
 }
 
 .u-section-8 .u-image-4 {
-  width: 342px;
+  width: 355px;
   height: 495px;
-  margin: 0 auto 0 31px;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-text-5 {
@@ -1308,9 +1307,9 @@
 }
 
 .u-section-8 .u-image-5 {
-  width: 371px;
+  width: 355px;
   height: 495px;
-  margin: 0 auto 0 27px;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-carousel-item-6 {
@@ -1323,9 +1322,9 @@
 }
 
 .u-section-8 .u-image-6 {
-  width: 568px;
-  height: 414px;
-  margin: 20px auto 0;
+  height: 355px;
+  width: 585px;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-carousel-item-7 {
@@ -1338,9 +1337,9 @@
 }
 
 .u-section-8 .u-image-7 {
-  width: 371px;
+  width: 355px;
   height: 495px;
-  margin: 0 auto 0 27px;
+  margin: 0 auto 0 28px;
 }
 
 .u-section-8 .u-carousel-control-1 {
@@ -1568,4 +1567,10 @@
 }
 .green {
   color: green;
+}
+.u-container-layout-1 .u-text-2 {
+  height: 50px;
+}
+.u-container-layout-2 .u-text-3 {
+  height: 100px;
 }
